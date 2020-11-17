@@ -1,0 +1,219 @@
+/*
+Name: Responsive CSS File - Minion Minimal Agency Template.
+Author: seven_themes
+Version: 1.0
+*/
+
+/* Medium Device */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }
+    .about .about-right {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .about .about-right h4 {
+        margin-bottom: 20px;
+    }
+    .about-us .about-imges {
+        width: auto;
+    }
+}
+/* Tablet Device */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .is-sticky .header-area .logo {
+        padding: 16px 0;
+    }
+    .mainmenu ul.nav.navbar-nav li {
+        padding: 0 3px;
+    }
+    .mainmenu ul.nav.navbar-nav > li > a {
+        padding: 28px 7px;
+    }
+    .is-sticky .mainmenu .nav.navbar-nav a {
+        padding: 19px 12px;
+    }
+    .header-text h2 {
+        font-size: 48px;
+    }
+    .header-text h2 span {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .text-white span,
+    .text-white h2,
+    .text-white h3 {
+        color: #fff;
+    }
+    .about .about-right {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .about .about-right h4 {
+        margin-bottom: 20px;
+    }
+    .about-us .about-imges {
+        width: auto;
+        margin-top: 65px;
+    }
+    .about-bottom .single-expr {
+        margin-right: 54px;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .fact {
+        margin-bottom: 35px;
+    }
+    .portfolio .porfolio-items .single-porfolio {
+        width: 50%;
+    }
+    .portfolio .porfolio-items .single-porfolio .img img {
+        height: 200px;
+    }
+    .client .single-client .content i.fa {
+        transform: translateX(-5px);
+    }
+    .contact .form h4 {
+        font-size: 21px;
+    }
+    .contact .address {
+        margin-top: 0px;
+    }
+}
+/* Mobile Device - Portait */
+@media only screen and (max-width: 767px) {
+    .header-area {
+        background-color: #000;
+        opacity: 1;
+        border: none;
+    }
+    .header-area .logo {
+        padding: 24px 0;
+    }
+    .header-area .logo a {
+        color: #fff;
+        font-size: 22px;
+    }
+    .is-sticky .header-area .logo {
+        padding: 14px 0;
+    }
+    .is-sticky .header-area .logo a {
+        color: #fff;
+        font-size: 22px;
+    }
+    .header-area .white-logo a {
+        font-size: 26px;
+    }
+    .is-sticky .header-area .white-logo a {
+        font-size: 26px;
+    }
+    .header-text span {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .header-text h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .header-text h2 span {
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+    .text-white span,
+    .text-white h2,
+    .text-white h3 {
+        color: #fff;
+    }
+    .header-text h3 {
+        font-size: 12px;
+    }
+    .mainmenu ul.nav.navbar-nav li {
+        background-color: #000;
+        display: block;
+        text-align: left;
+        z-index: 9999;
+    }
+    .mainmenu ul.nav.navbar-nav li a {
+        color: #fff;
+        padding: 10px 0;
+    }
+    .is-sticky .mainmenu ul.nav.navbar-nav li a {
+        padding: 14px 0;
+    }
+    .mainmenu ul.nav.navbar-nav > li.active > a::before, 
+    .mainmenu ul.nav.navbar-nav > li:hover > a::before {
+        width: 0;
+    }
+    .mainmenu ul.nav.navbar-nav > li:hover > a,
+    .mainmenu ul.nav.navbar-nav > li.active > a {
+        color: #3498db !important;
+    }
+    .is-sticky .mainmenu ul.nav.navbar-nav li a {
+        color: #fff;
+    }
+    .is-sticky .header-area::after {
+        background-color: #000;
+    }
+    .navbar-toggle {
+        margin-bottom: 26px;
+        margin-top: 26px;
+        padding: 10px 10px;
+        transition: .7s;
+    }
+    .is-sticky .navbar-toggle {
+        margin: 13px 15px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .about-left {
+        margin-bottom: 45px;
+    }
+    .about-us .about-imges {
+        margin-top: 40px;
+        width: auto;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .fact {
+        margin-bottom: 35px;
+    }
+    .portfolio .porfolio-items .single-porfolio {
+        width: 100%;
+    }
+    .contact .address {
+        margin-top: 30px;
+    }
+    #footer {
+        margin-top: 0px;
+}
+}
+/* Mobile Device - Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-text h2 {
+        font-size: 32px;
+    }
+    .header-text h2 span {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    .text-white span,
+    .text-white h2,
+    .text-white h3 {
+        color: #fff;
+    }
+    .about-us .about-imges {
+        width: auto;
+    }
+    .portfolio .porfolio-items .single-porfolio {
+        width: 50%;
+    }  
+}
